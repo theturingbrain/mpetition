@@ -9,6 +9,7 @@ ls -al
 echo "changing the permission for $ANDROID_HOME"
 sudo chmod 777 -R ./android-sdk-linux/
 echo `pwd`
+cd ./MPetition
 echo "Starting the ant to build"
 ant -f build.xml  $EMAILMESSAGE
 ant clean  
