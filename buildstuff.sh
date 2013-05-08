@@ -19,7 +19,7 @@ if [ "$?" = 1 ]; then
 fi
 exit $FAILED
  
-sudo apt-get install mailutils
+#sudo apt-get install mailutils
 
 SUBJECT="Build started: "
 # Email To members
